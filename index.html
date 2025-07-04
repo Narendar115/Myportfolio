@@ -1,12 +1,164 @@
-<!DOCTYPE html>
+<!DOCTYliE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewliort" content="width=device-width, initial-scale=1.0">
+    <title>Narendar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello world</h1>
-    <h2>From Narendar</h2>
+    <div id="container">
+      <div class="navbar">
+        <header>
+        <div>
+        <h2>Portfolio</h2>
+        </div>
+        <div class="header">
+        <ul>
+           <li><a href="#home"><strong>Home</strong></a></li>
+           <li><a href="#projects"><strong>Projects</strong></a></li>
+           <li><a href="#services"><strong>Services</strong></a></li>
+           <li><a href="#about"><strong>About</strong></a></li>
+           <li><a href="#contact"><strong>contact</strong></a></li>
+        </ul>
+        </div>
+        </header>
+      </div>
+    <main>
+
+       <section id="home">
+          <div class="row">
+
+            <div class="box">
+               <h1 class="title">Mern stack developer</h1>
+               <p class="summary">
+                A dedicated and detail-oriented Software Engineer specializing in full-stack web development. 
+                I have hands-on experience with modern technologies including HTML, CSS, JavaScript, Node.js, and MongoDB.
+                 My goal is to build scalable, secure, and user-centric digital solutions that solve real-world problems.
+               </p>
+            <p><button class="button">know more</button></p>
+            </div>
+
+            <div>
+               <img src="images/pic1.jpg" width="300px" class="image" alt="">
+            </div>
+          </div>
+       </section>
+
+       <section id="projects" style="background-color: rgb(246, 197, 229); height:50%;">
+        <h1 style="text-align:center; background-color: rgb(121, 190, 233);">Projects</h1>
+        <div class="row">
+
+            <div class="box" id="probox">
+              <h2>Project 1</h2>
+              <p>
+                 developed a web page for foodmart using HTML and CSS
+              </p>
+              <button class="button"><a href="../foodmart/index.html" id="probtn">view Demo</a></button>
+            </div>
+
+            <div class="box" id="probox">
+              <h2>Project 2</h2>
+              <p>
+                Developed a small demo like e-commerce website using HTML,CSS and Javascript.
+              </p>
+              <button class="button"><a href="http://127.0.0.1:5501/p2/index.html" id="probtn">view Demo</a></button>
+            </div>
+
+            <div class="box" id="probox">
+              <h2>Project 3</h2>
+              <p>
+                Bank ATM
+              </p>
+              <button class="button"><a href="http://127.0.0.1:5501/p3/index.html" id="probtn">view Demo</a></button>
+            </div>
+
+        </div>
+
+       </section>
+
+       <section id="services" style="background-color: rgb(152, 166, 172); height:50%">
+
+        <h1 style="text-align: center;">Services</h1>
+      <div class="row">
+
+        <div class="box" id="probox">
+          <h1 style="text-align: center;">web developer</h1>
+           <div id="imgs">
+            <img src="images/p2.png" width="200px" alt="">
+          </div>
+        </div >
+
+        <div class="box" id="probox">
+           <h1 style="text-align: center;">Mern stack developer</h1>
+           <div id="imgs">
+            <img src="images/p4.png" width="200px" alt="">
+          </div>
+        </div>
+
+        <div class="box" id="probox">
+            <h1 style="text-align: center;">Data science Engineer</h1>
+            <div id="imgs">
+            <img src="images/p5.png" width="200px" alt="">
+          </div>
+        </div>
+
+      </div>
+       </section>
+       <section id="about" style="text-align: center; background-color: bisque;">
+        <h1>About My Skills</h1>
+        <div class="row">
+          <div class="box">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>C</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Mongo-DB</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Non Technical Skills</h3>
+            <ul>
+              <li>Quick learner</li>
+              <li>Cricket player</li>
+            </ul>
+          </div>
+        </div>
+       </section>
+       <section id="contact" style="background-color: rgb(61, 180, 239);">
+            <h1 style="text-align: center;">Contact</h1>
+            <div class="row">
+            <div class="box">
+              <p>
+                <strong>Name:</strong>Narendar
+              </p>
+              <p>
+                <strong>Phone:</strong>+91 9392743008
+              </p>
+              <p>
+                <strong>Email:</strong><a href="narendarkethavath73@gmail.com">narendarkethavath73@gmail.com</a>
+              </p>
+              <p>
+                <strong>Git-Hub:</strong><a href="https://github.com/Narendar115">github.com/Narendar115</a>
+              </p>
+            </div>
+            <div class="box">
+              <label for="">Your Name</label><br>
+              <input type="text" placeholder="Enter your name" required><br>
+              <label for="">Email Address</label><br>
+              <input type="text" placeholder="Enter your email" required><br>
+              <label for="">Message</label><br>
+              <textarea name="" id="" cols="50"></textarea><br>
+              <button>Sent Message</button>
+            </div>
+            </div>
+       </section>
+    </main>
+    <footer>
+       &copy;2025.all rights reserved.
+    </footer>
+    </div>
 </body>
 </html>
